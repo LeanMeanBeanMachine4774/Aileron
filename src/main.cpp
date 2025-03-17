@@ -6,8 +6,8 @@
 #define ZERO_OFFSET 90
 #define BUTTON_PIN 9
 //Servo travel from onshape assembly (https://cad.onshape.com/documents/d18afc04477c0a37ba3a6c4c/w/296bb2347621a61e29efeed9/e/c0daab103472e3648c63e07d?renderMode=0&uiState=67d52d3223160a63ec30cd7a)
-#define MAXIMUM_ELEVATION 23
-#define MAXIMUM_DEPRESSION -40
+#define MAXIMUM_ELEVATION 30
+#define MAXIMUM_DEPRESSION -55
 #define POT1_PIN A0
 
 Servo servo1;
@@ -38,5 +38,4 @@ void loop() {
       servo_angle = desired_angle;
     }
   }
-  
 }
